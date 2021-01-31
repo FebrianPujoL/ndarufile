@@ -1,0 +1,22 @@
+div {
+    background:green;
+    color : white
+}
+#a {background : blue;
+    margin : 10px 30px 60px 0;
+    padding: 50px 20px;
+}
+
+.a1 {
+    background : pink;
+    color: green;
+    margin : 10px;
+    padding: 10px 50px 100px 70px;
+}
+
+.a2 {
+    background : grey;
+    color: #2153eb;
+    margin: 30px ;
+
+}

@@ -1,0 +1,47 @@
+.g{
+    text-align: center;
+    background: white ;
+    padding: 0px 50px
+}
+.a{
+    padding: 30px;
+}
+.z:hover {
+    background: black;
+    color: white;
+    border: 1px solid pink;
+}
+.z{
+    background: white;
+    color: black;
+    border: 3px solid yellow;
+}
+.n{
+    padding: 50px;
+}
+    .padding { padding: 0px ;
+        ;
+    }
+.font{
+    font-size: 35;
+}
+.background {
+    background: white;
+    color: #007bff;;
+    border: 0px solid #007bff;
+    width: 150px;}
+.j{
+    width: 150px;
+}
+.img{
+    width: 25px;
+}
+.color{ 
+    background: white;
+}
+.hh{
+    border-bottom: 1px solid #dee2e6 ;
+}
+.wa{
+    color: grey;
+}

@@ -1,0 +1,19 @@
+.black{
+    color: black;
+    border: 3px solid red;
+}
+.black:hover{
+    background: red;
+    border: 3px solid red;
+    color: yellow;
+}
+
+.ze {text-align: center;}
+.WW {
+    background: tomato;
+    color: black;
+}
+.WW:hover{
+    background: red;
+    color: tomato;
+}

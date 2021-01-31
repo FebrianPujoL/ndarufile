@@ -1,0 +1,39 @@
+.a {
+    display: inline ;
+    background : red;
+    height: 100px;
+    width: 50px;
+    border: 1px solid blueviolet;
+}
+.b {
+    display: block;
+    background: orange;
+    height: 29px;
+    width: 100px;
+}
+.d {
+    display: block;
+    background : purple
+}
+.c {
+    display: inline-block;
+    background: orchid;
+    height: 100px;
+    width: 200px;
+    border: 1px solid blueviolet;
+    text-decoration: line-through white ;
+}
+
+table, th, td {
+    border: 1px dashed aqua;
+    border-collapse: collapse;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 400;
+    border-right: 10px solid pink;
+    border-left: 10px solid pink;    
+}
+
+.text { list-style-type: ;
+}

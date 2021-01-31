@@ -1,0 +1,17 @@
+ li{
+    list-style-type: d ;
+    background: pink;
+}
+.a{background: purple;
+    padding: 0px;
+}
+#v{
+    background: green;
+}
+
+.a > li{background: lawngreen}
+
+#m{
+    background: yellow;
+}
+

@@ -1,24 +1,24 @@
-.color-button{
+.header__button--background{
     background: #0699A6;
     border-radius: 0px;
     width: 225px;
     height: 60px;
     margin-left: 125px;
 }
-.rectangle-potition{
+.header__images--position{
     width: 350px;
     height: 350px;
     margin-top: 180px;
     margin-left: 165px;
 }
-.combined-shape{
+.header__images-shape--position{
     color: #9E8C6C;
     width: 152px;
     height: 152px;
     margin-left: 403px;
     margin-top: -110px;
 }
-.Designer-Developer{
+.header__name-developer--design{
     color: #9E8C6C;
     text-transform: uppercase;
     font-family: PT Sans Narrow;
@@ -27,7 +27,7 @@
     margin-top: 180px;
     padding-left: 125px;
 }
-.matt-mcdonald{
+.header__name--matt-mcdonald{
     font-family: Playfair Display;
     font-size: 126px;
     padding-left: 125px;
@@ -36,13 +36,13 @@
     padding-top: 13px;
     letter-spacing: -2px
 }
-.background-color{
+.header--background{
     background: #FEF4E1;
     width: 1440px;
     height: 747px;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 82%, 0 100%);
 }
-.left-visual{
+.skill__list--position{
     list-style-type: none;
     margin-left: -40px;
 }

@@ -1,47 +1,44 @@
-.g{
+.header--background{
     text-align: center;
     background: white ;
     padding: 0px 50px
 }
-.a{
+.price-list--padding{
     padding: 30px;
 }
-.z:hover {
+.header--color:hover {
     background: black;
     color: white;
     border: 1px solid pink;
 }
-.z{
+.header--color{
     background: white;
     color: black;
     border: 3px solid yellow;
 }
-.n{
+.price-list__card-body--padding{
     padding: 50px;
 }
-    .padding { padding: 0px ;
-        ;
-    }
-.font{
+.price-list--padding-zero { 
+    padding: 0px ;
+}
+.price-list--font-size{
     font-size: 35;
 }
-.background {
+.price-list--background-color {
     background: white;
     color: #007bff;;
     border: 0px solid #007bff;
     width: 150px;}
-.j{
+.price-list--width{
     width: 150px;
 }
-.img{
+.footer__image--width{
     width: 25px;
 }
-.color{ 
+.footer--background-color{ 
     background: white;
 }
-.hh{
+.header--border-bottom{
     border-bottom: 1px solid #dee2e6 ;
-}
-.wa{
-    color: grey;
 }

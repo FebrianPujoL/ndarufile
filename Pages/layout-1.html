@@ -9,115 +9,119 @@
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="layout.css">
 </head>
-<nav class="navbar navbar-light bg-light shadow-sm hh">
-  <a class="navbar-brand">Company name</a>
-  <form class="form-inline">
-    <nav class="my-2 my-md-0 mr-md-3">
-      <a class="p-2 text-dark" href="#">Features</a>
-      <a class="p-2 text-dark" href="#">Enterprise</a>
-      <a class="p-2 text-dark" href="#">Support</a>
-      <a class="p-2 text-dark" href="#">Pricing</a>
+
+<body>
+  <header>
+    <nav class="navbar navbar-light bg-light shadow-sm header--border-bottom">
+      <a class="navbar-brand">Company name</a>
+      <form class="form-inline">
+        <nav class="my-2 my-md-0 mr-md-3">
+          <a class="p-2 text-dark" href="#">Features</a>
+          <a class="p-2 text-dark" href="#">Enterprise</a>
+          <a class="p-2 text-dark" href="#">Support</a>
+          <a class="p-2 text-dark" href="#">Pricing</a>
+        </nav>
+        <a class="btn btn-outline-primary header--color" href="#">Sign up</a>
+      </form>
     </nav>
-    <a class="btn btn-outline-primary z" href="#">Sign up</a>
-  </form>
-</nav>
-<div class="container">
-  <p class="lead">
-  <div class="jumbotron jumbotron-fluid g">
-    <div class="container g ">
-      <h1 class="display-4">Princing</h1>
-      <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap
-        example. It's built with default Bootstrap components and utilities with little customization.</p>
-    </div>
-  </div>
-  </p>
-</div>
-<div class="container">
-  <div class="row padding">
-    <div class="col-sm-4 a">
-      <div class="card-header">Free</div>
-      <div class="card-body n">
-        <h5 class="card-title font">$0 / mo</h5>
-        <p class="card-text"> 10 users included 2 GB of storage Email support
-          Help center access</p>
-        <a href="#" class="btn btn-primary background">Go somewhere</a>
-      </div>
-    </div>
-    <div class="col-sm-4 a">
-      <div class="card-header">Free</div>
-      <div class="card-body n">
-        <h5 class="card-title font">$0 / mo</h5>
-        <p class="card-text"> 10 users included 2 GB of storage Email support
-          Help center access</p>
-        <a href="#" class="btn btn-primary j">Get started</a>
-      </div>
-    </div>
-    <div class="col-sm-4 a">
-      <div class="card-header">Free</div>
-      <div class="card-body n">
-        <h5 class="card-title font">$0 / mo</h5>
-        <p class="card-text"> 10 users included 2 GB of storage Email support
-          Help center access</p>
-        <a href="#" class="btn btn-primary j">Contact us</a>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="container">
-  <div class="row">
-    <div class="col-sm-3 ">
-      <div class="jumbotron jumbotron-fluid color">
-        <div class="container">
-          <h1 class="display-4 img"><img src="https://getbootstrap.com/docs/4.5/assets/brand/bootstrap-solid.svg"
-              alt=""></h1>
-          <p class="lead">©2017-2020</p>
+    <div class="container">
+      <p class="lead">
+      <div class="jumbotron jumbotron-fluid header--background">
+        <div class="container header--background ">
+          <h1 class="display-4">Princing</h1>
+          <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap
+            example. It's built with default Bootstrap components and utilities with little customization.</p>
         </div>
       </div>
+      </p>
     </div>
-    <div class="col-sm-3 ">
-      <div class="jumbotron jumbotron-fluid color">
-        <div class="container">
-          <h1 class="display-4 font">Features</h1>
-          <p class="lead"> <a href="hover">Cool stuff</a>
-            <a href="hover">Random feature</a>
-            <a href="hover">Team feature</a>
-            <a href="hover">Stuff for developers </a>
-            <a href="hover">Another one</a>
-            <a href="hover">Last time</a>
-          </p>
+  </header>
+  <section id="price-list">
+  <div class="container">
+    <div class="row price-list--padding-zero">
+      <div class="col-sm-4 price-list--padding">
+        <div class="card-header">Free</div>
+        <div class="card-body n">
+          <h5 class="card-title price-list--font-size">$0 / mo</h5>
+          <p class="card-text"> 10 users included 2 GB of storage Email support
+            Help center access</p>
+          <a href="#" class="btn btn-primary price-list--background-color">Go somewhere</a>
         </div>
       </div>
-    </div>
-    <div class="col-sm-3 ">
-      <div class="jumbotron jumbotron-fluid color">
-        <div class="container">
-          <h1 class="display-4 font">Resources</h1>
-          <p class="lead"><a href="hover">Resource</a>
-            <a href="hover">Resource name</a>
-            <a href="hover">Another resource</a>
-            <a href="hover">Another resource</a>
+      <div class="col-sm-4 a">
+        <div class="card-header">Free</div>
+        <div class="card-body price-list__card-body--padding">
+          <h5 class="card-title price-list--font-size">$0 / mo</h5>
+          <p class="card-text"> 10 users included 2 GB of storage Email support
+            Help center access</p>
+          <a href="#" class="btn btn-primary price-list--width">Get started</a>
         </div>
       </div>
-    </div>
-    <div class="col-sm-3 ">
-      <div class="jumbotron jumbotron-fluid color">
-        <div class="container">
-          <h1 class="display-4 font">About</h1>
-          <p class="lead"><a href="Hover">Team</a>
-            <a href="hover">Locations</a>
-            <a href="hover">Privacy</a>
-            <a href="hover">Terms</a>
-          </p>
+      <div class="col-sm-4 a">
+        <div class="card-header">Free</div>
+        <div class="card-body n">
+          <h5 class="card-title price-list--font-size">$0 / mo</h5>
+          <p class="card-text"> 10 users included 2 GB of storage Email support
+            Help center access</p>
+          <a href="#" class="btn btn-primary price-list--width">Contact us</a>
         </div>
       </div>
     </div>
   </div>
-</div>
-
-
-
-
-
+</section>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3 ">
+        <div class="jumbotron jumbotron-fluid footer--background-color">
+          <div class="container">
+            <h1 class="display-4 footer__image--width"><img src="https://getbootstrap.com/docs/4.5/assets/brand/bootstrap-solid.svg"
+                alt=""></h1>
+            <p class="lead">©2017-2020</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 ">
+        <div class="jumbotron jumbotron-fluid footer--background-color">
+          <div class="container">
+            <h1 class="display-4 price-list--font-size">Features</h1>
+            <p class="lead"> <a href="hover">Cool stuff</a>
+              <a href="hover">Random feature</a>
+              <a href="hover">Team feature</a>
+              <a href="hover">Stuff for developers </a>
+              <a href="hover">Another one</a>
+              <a href="hover">Last time</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 ">
+        <div class="jumbotron jumbotron-fluid footer--background-color">
+          <div class="container">
+            <h1 class="display-4 price-list--font-size">Resources</h1>
+            <p class="lead"><a href="hover">Resource</a>
+              <a href="hover">Resource name</a>
+              <a href="hover">Another resource</a>
+              <a href="hover">Another resource</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 ">
+        <div class="jumbotron jumbotron-fluid footer--background-color">
+          <div class="container">
+            <h1 class="display-4 price-list--font-size">About</h1>
+            <p class="lead"><a href="Hover">Team</a>
+              <a href="hover">Locations</a>
+              <a href="hover">Privacy</a>
+              <a href="hover">Terms</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
   integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
